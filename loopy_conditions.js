@@ -7,6 +7,18 @@
  * @return { Number }
  */
 
+function greaterNumber(a, b) {
+	if(a + b){
+		return a;
+	}
+	else{
+		return b;
+	}
+}
+
+var b = Math.max(1, 2);
+
+//greaterNumber(1, 2);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +30,9 @@
  * @return { String }
  */
 
+function stringOfNumbers(a){
+
+}
 
 /**
  * Create a function called 'sumOfArray'.
@@ -28,6 +43,9 @@
  * @return { Number }
  */
 
+function sumOfArray(){
+
+}
 
 /**
  * Create a function called 'getEvens'.
@@ -37,6 +55,9 @@
  * @return { array }
  */
 
+function getEvens(){
+
+}
 
 /**
  * Create a function called 'getOdds'.
@@ -46,7 +67,9 @@
  * @return { array }
  */
 
+function getOdds(){
 
+}
 /**
  * Create a function called 'calculate'.
  * This function will take in 3 parameters:
@@ -61,3 +84,7 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+
+function calculate(){
+
+}
