@@ -8,7 +8,7 @@
  */
 
 function greaterNumber(a, b) {
-	if(a + b){
+	if(a>b){
 		return a;
 	}
 	else{
@@ -16,9 +16,8 @@ function greaterNumber(a, b) {
 	}
 }
 
-var b = Math.max(1, 2);
 
-//greaterNumber(1, 2);
+greaterNumber(1, 2);
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -30,8 +29,10 @@ var b = Math.max(1, 2);
  * @return { String }
  */
 
-function stringOfNumbers(a){
-
+function stringOfNumbers(n){
+	if(n=10){
+		return
+	}
 }
 
 /**
